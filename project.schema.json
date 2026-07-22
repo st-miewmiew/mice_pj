@@ -14,6 +14,7 @@
     "subtitle": { "type": "string" },
     "org": { "type": "string" },
     "docsUrl": { "type": "string", "format": "uri" },
+    "updatedAt": { "type": "string", "description": "Optional manual override for the last-updated timestamp (ISO 8601). If omitted, the JSON file's Last-Modified header is used." },
     "hero": {
       "type": "object",
       "required": ["breadcrumb", "badges", "metaRow"],

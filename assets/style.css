@@ -253,6 +253,17 @@ table small{color:var(--text-muted);font-size:12px;}
 
 .print-only{display:none;}
 
+/* last-updated footer */
+.page-footer{
+  margin-top:28px;padding-top:16px;border-top:1px solid var(--border);
+  display:flex;justify-content:flex-end;
+}
+.updated-at{
+  font-size:12px;color:var(--text-muted);
+  font-variant-numeric:tabular-nums;letter-spacing:.02em;
+}
+.updated-at:empty{display:none;}
+
 @media(max-width:600px){
   .print-btn-label{display:none;}
   .print-btn{padding:12px;right:16px;bottom:16px;}

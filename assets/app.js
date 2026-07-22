@@ -158,12 +158,26 @@ function renderTabsAndPanels(data){
   });
 }
 
-function renderProject(data){
+function renderUpdatedAt(raw){
+  const el = document.getElementById("updated-at");
+  if (!el) return;
+  const d = raw ? new Date(raw) : null;
+  if (!d || isNaN(d.getTime())){ el.textContent = ""; return; }
+  const s = d.toLocaleString("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit"
+  });
+  el.textContent = `最終更新：${s}（JST）`;
+}
+
+function renderProject(data, lastModified){
   document.title = data.title;
   renderHero(data);
   renderLive(data);
   renderAlert(data);
   renderTabsAndPanels(data);
+  renderUpdatedAt(data.updatedAt || lastModified);
   document.getElementById("app").style.display = "";
   document.getElementById("state-message").style.display = "none";
 }
@@ -180,12 +194,14 @@ function init(){
     showMessage("プロジェクトが指定されていません（?id=<project-id> を指定してください）。");
     return;
   }
+  let lastModified = null;
   fetch(`./${id}.json`)
     .then(res => {
       if (!res.ok) throw new Error(`not found: ${id}`);
+      lastModified = res.headers.get("Last-Modified");
       return res.json();
     })
-    .then(renderProject)
+    .then(data => renderProject(data, lastModified))
     .catch(() => showMessage(`プロジェクト「${id}」のデータが見つかりませんでした。`));
 }
 
