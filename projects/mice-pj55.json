@@ -1,0 +1,187 @@
+{
+  "$schema": "../project.schema.json",
+  "id": "mice-pj55",
+  "domain": "other",
+  "title": "地域のMICE誘致力強化促進事業（PJ_No.55）",
+  "subtitle": "伝統的工芸・ものづくりを中核としたMICE推進事業。米沢観光コンベンション協会が申請主体、プラットヨネザワが事務局・PMとして伴走する個社PM。",
+  "org": "プラットヨネザワ株式会社",
+  "docsUrl": "https://drive.google.com/drive/folders/1j2FpAqBmXyZrFWAUWkNyZuDUjnGZYmMs",
+  "hero": {
+    "breadcrumb": "個社PM ＞ 米沢観光CV協会 MICE推進事業",
+    "badges": [
+      { "label": "観光庁 R8補助（採択済）", "kind": "r7" },
+      { "label": "進行中（交付申請フェーズ）", "kind": "r7" }
+    ],
+    "metaRow": [
+      "📌 事業：観光庁 令和8年度「地域のMICE誘致力強化促進事業」",
+      "🤝 申請主体：米沢観光コンベンション協会＋プラットヨネザワ（DMO）＋自治体",
+      "🎯 プラットの役割：事務局・PM（事務局中心＝鈴木／統括＝宮嶌）",
+      "🗓 運用：週次定例（毎週木 15:30＠米沢観光CV協会）"
+    ]
+  },
+  "live": {
+    "phase": "採択済→交付申請を7月中に完了させることを最優先。作業リストをWBS化し全体会議で共有中",
+    "nextMilestone": "7/22 プラット全体会議でWBS共有 → 7月中 交付申請完了",
+    "nextDeadline": "2026-07-22",
+    "progress": 0.35
+  },
+  "alert": "<strong>✅ 7/16 第2回定例 実施。</strong>ヘッドセットは<strong>当初申請どおり30台</strong>購入（受入整備の備品でモニターツアー人数とは非連動）／見積は<strong>他社比較不要・プラットが自社作成</strong>／ビッドペーパー・タリフは<strong>PDF内製</strong>・案内看板は補助対象で制作。作業リストは<strong>井上がWBS化→7/22(水)プラット全体会議で共有</strong>。直近＝<strong>交付申請の書類・予算書をJTB平間氏と確認（7月中実施のオンライン打合せ調整中）</strong>。",
+  "tabs": [
+    { "key": "overview", "label": "📌 概要" },
+    { "key": "milestones", "label": "🎯 マイルストーン" },
+    { "key": "tasks", "label": "📋 タスク・担当" },
+    { "key": "deps", "label": "🔗 依存・リスク" },
+    { "key": "mtg", "label": "📝 MTG・資料" }
+  ],
+  "sections": [
+    {
+      "type": "highlight", "tab": "overview", "title": "事業概要", "icon": "📌",
+      "html": "観光庁 令和8年度<strong>「地域のMICE誘致力強化促進事業」</strong>を活用し、置賜紬などの<strong>伝統的工芸×先端ものづくり</strong>を中核に据えた米沢型MICE（小規模会議・インセンティブ・エキシビション）の誘致力を強化する事業。<strong>申請主体＝(一社)米沢観光コンベンション協会＋米沢市版DMO プラットヨネザワ＋自治体</strong>の3者連携。プラットヨネザワは<strong>事務局・PM</strong>として、交付申請・見積一括取得・体験ツアー造成・多言語対応・プロモーション素材制作・受入態勢整備までを一気通貫で伴走する。補助率<strong>4/5（自己負担1/5）</strong>。"
+    },
+    {
+      "type": "stats", "tab": "overview",
+      "items": [
+        { "number": "約485", "numberStyle": "font-size:1.4rem;", "unit": "万円", "label": "事業規模（補助4/5・予算確定中）" },
+        { "number": "4/5", "unit": "補助率", "label": "自己負担1/5（余剰金等が原資）" },
+        { "number": "採択", "numberStyle": "font-size:1.4rem;", "unit": "済", "label": "観光庁 R8（交付申請フェーズ）" },
+        { "number": "週次", "numberStyle": "font-size:1.4rem;", "unit": "定例", "label": "毎週木15:30／全体計画確定後は月1へ" }
+      ]
+    },
+    {
+      "type": "table", "tab": "overview", "title": "実施プログラム ポートフォリオ", "icon": "🏗",
+      "heading": "作業リスト（2026/7/16版）に基づく実施プログラムと概算予算",
+      "head": ["#", "プログラム", "主な内容", "概算予算", "状態"],
+      "rows": [
+        ["②", "<strong>サステイナブルものづくり体験ツアー造成・多言語対応整備</strong><br><small>A伝統工芸／B先端製造／C融合の3ルート・通訳ガイド育成・ヘッドセット・展示パネル多言語化・FAMツアー</small>", "体験ツアー造成＋多言語", "115万円", "設計着手"],
+        ["④", "<strong>プロモーション素材・情報発信</strong><br><small>コンベンションガイド(日英中40P)・ビッドペーパー・プロモ動画(4K)・HP/MICEポータル改修</small>", "広報・営業ツール整備", "190万円", "仕様書作成"],
+        ["⑤", "<strong>受け入れ態勢整備</strong><br><small>事業PM・定例会運営・ワンストップ窓口(MICE専用タリフ)・効果測定/報告書</small>", "受入体制・PM", "運営費内", "運用中"],
+        ["共通", "<strong>引き継ぎ・事務局運営</strong><br><small>交付申請書類・予算確定・見積一括取得体制・OneDrive権限・名刺デジタル化・資金繰り</small>", "事務局基盤", "事務費(全体10%以内)", "進行中"]
+      ]
+    },
+    {
+      "type": "text", "tab": "overview", "title": "プロジェクト体制", "icon": "🤝",
+      "heading": "推進体制（プラット＝事務局・PM／協会＝主体的関与）",
+      "html": "<strong>プラットヨネザワ</strong>＝事務局・PM・書類作成／見積一括取得・発注（再委託にしない）／体験ツアー造成・多言語・プロモ素材の企画。<strong>宮嶌 浩聡</strong>＝全体統括・担当役員（副会長）。<strong>鈴木 美由紀（本PJTオーナー）</strong>＝MICE事務局中心（週2勤務）・書類/見積・バックオフィス・WBS管理。<strong>石山 杏子</strong>＝通訳ガイド育成の主担当。<strong>井上 陽平</strong>＝作業リストのWBS化。<br><strong>米沢観光コンベンション協会</strong>＝申請主体・意思決定・行政/事務局との窓口。<strong>青木 一成氏</strong>（事務局長）＝官公庁・事務局対応・予算/資金繰り。<strong>五十嵐 真琴氏</strong>（ビューロー担当）＝通常事業(学会誘致)・引き継ぎ。<strong>佐藤 道代氏</strong>＝前任(11年)・引き継ぎ。<strong>JTB 平間氏</strong>＝予算書・備品数量の相談パートナー。"
+    },
+    {
+      "type": "table", "tab": "overview", "title": "事業の狙い（趣意書より）", "icon": "🎯",
+      "head": ["柱", "内容"],
+      "rows": [
+        ["受入環境の高付加価値化", "ユニークベニュー開発・体験プログラム造成・食の整備・歓迎装飾/備品（工場見学時の騒音対策イヤホンマイク等）"],
+        ["広域連携・エクスカーション", "周辺MICE（福島市等）と連携し米沢への来訪機会を創出。広域受入体制を構築"],
+        ["意識向上・推進体制", "MICE経済波及効果の数値共有（山形市 R6=17億円／米沢市 R7=4千万円）・専門アドバイザー招請・山形大学工学部と誘致チーム構築"],
+        ["MIEへの展開", "C(会議)に加えI(インセンティブ)・E(エキシビション)へ拡大。台湾グローバル企業招請による商談会も視野"]
+      ]
+    },
+    {
+      "type": "gantt", "tab": "milestones", "title": "統合タイムライン（ガント）", "icon": "📊",
+      "heading": "交付申請〜実働〜報告（2026/7/16時点）",
+      "months": ["2026/6", "7", "8", "9", "10", "11", "12", "2027/1", "2", "3"],
+      "rows": [
+        { "label": "引き継ぎ・週次定例立上げ", "start": 0, "span": 2, "status": "active", "text": "6/17〜 引き継ぎ→7/9・7/16 定例" },
+        { "label": "交付申請（7月中完了・最優先）", "start": 1, "span": 1, "status": "active", "text": "書類・予算書確定→提出" },
+        { "label": "作業リストWBS化→全体会議共有", "start": 1, "span": 1, "status": "active", "text": "7/22(水)共有" },
+        { "label": "② 体験ツアー造成・多言語整備", "start": 1, "span": 5, "status": "planned", "text": "ルート設計→ガイド育成→FAM" },
+        { "label": "④ プロモ素材（ガイド/動画/HP）", "start": 1, "span": 5, "status": "planned", "text": "仕様→発注→10-11月撮影" },
+        { "label": "山形コンベンションフェア出展", "start": 2, "span": 1, "status": "planned", "text": "8/26 出展" },
+        { "label": "電気関係学会（山大・約350名）", "start": 2, "span": 1, "status": "planned", "text": "8/27-28 開催・交付申請対応" },
+        { "label": "FAMツアー（15名前後）", "start": 5, "span": 1, "status": "planned", "text": "11月頃・動画撮影併催" },
+        { "label": "来年度開催意向調査→交付申請", "start": 2, "span": 2, "status": "planned", "text": "8月調査→9月末 県・市申請" },
+        { "label": "効果測定・報告書", "start": 8, "span": 2, "status": "planned", "text": "年度末・消費額推計" }
+      ]
+    },
+    {
+      "type": "timeline", "tab": "milestones", "title": "主要マイルストーン", "icon": "🎯",
+      "heading": "完了 → 直近 → 今後（2026/7/16 第2回定例 時点）",
+      "items": [
+        { "time": "2026/02/27", "date": "2026-02-27", "milestone": "応募 起案・趣意書", "desc": "観光庁 R8「地域のMICE誘致力強化促進事業」へ応募（起案書・趣意書 決裁）", "done": true },
+        { "time": "2026/06/17", "date": "2026-06-17", "milestone": "ビューロー引き継ぎ開始", "desc": "佐藤氏（11年担当）→組織へ引き継ぎ開始。鈴木がMICE事務局中心・宮嶌が担当役員に", "done": true },
+        { "time": "2026/06/26", "date": "2026-06-26", "milestone": "MICE計画すり合わせ", "desc": "採択後の交付段階を確認。区分整理（パネル/多言語/備品=自己負担、企画/コンテンツ=補助対象）・ガイド育成連携を議論", "done": true },
+        { "time": "2026/06/30", "date": "2026-06-30", "milestone": "引き継ぎ・交付フロー確認", "desc": "書類作成はプラット・OneDrive権限付与・交付申請フロー（開催前年度9月末まで／45日前申請）を確認", "done": true },
+        { "time": "2026/07/09(木)", "date": "2026-07-09", "milestone": "第1回 週次定例", "desc": "見積・発注はプラット一括（再委託にしない）／ヘッドセットはRetekess TT106ベース／FAMツアー11月・15名前後で計画", "done": true },
+        { "time": "2026/07/13(月)", "date": "2026-07-13", "milestone": "OneDrive権限整備", "desc": "リコー社にてプラットのアカウント発行・OneDriveアクセス権限を設定（14:00〜作業）", "done": true },
+        { "time": "2026/07/16(木)", "date": "2026-07-16", "milestone": "第2回 週次定例", "desc": "ヘッドセットは申請どおり30台購入で確定／見積は自社作成／ビッドペーパー・タリフはPDF内製／案内看板は補助対象／作業リストは井上がWBS化し7/22全体会議で共有", "done": true },
+        { "time": "2026/07/中", "date": "2026-07-22", "milestone": "WBS共有・全体会議", "desc": "★ 作業リストをWBS化し、プラット全体会議（7/22 水）で共有・発表", "done": false },
+        { "time": "2026/07/中", "date": "2026-07-31", "milestone": "交付申請 完了", "desc": "★ 交付申請を7月中に完了（書類・予算書をJTB平間氏と確定→提出）。最優先事項", "done": false },
+        { "time": "2026/08/26(水)", "date": "2026-08-26", "milestone": "山形コンベンションフェア", "desc": "山形コンベンションビューローと調整のうえ出展。エクスカーション獲得の機会", "done": false },
+        { "time": "2026/08/27〜28", "date": "2026-08-27", "milestone": "電気関係学会（山大・約350名）", "desc": "開催支援・交付申請対応・看板設置・愛の武将隊アトラクション申請", "done": false },
+        { "time": "2026/09/末", "date": "2026-09-30", "milestone": "来年度分 交付申請（県・市）", "desc": "8月の開催意向調査を経て、来年度開催分の交付申請を県・市へ", "done": false },
+        { "time": "2026/10〜11", "date": "2026-11-15", "milestone": "FAMツアー・プロモ動画撮影", "desc": "FAM（モニター）ツアー 15名前後を実施し、プロモーション動画（4K）を撮影", "done": false },
+        { "time": "2027/年度末", "date": "2027-03-31", "milestone": "効果測定・事業報告書", "desc": "参加者アンケートで消費額（経済波及効果）を推計し、事業報告書を作成", "done": false }
+      ]
+    },
+    {
+      "type": "table", "tab": "tasks", "title": "直近ネクストステップ", "icon": "📋",
+      "heading": "第2回定例（7/16）ToDo＋交付申請 最優先（担当・期限）",
+      "head": ["タスク", "担当", "期限", "状態"],
+      "rows": [
+        ["ヘッドセット30台の考え方（受入整備の備品・モニター人数と非連動）を整理し平間氏確認用メール文面を作成", "鈴木", "7/16", "<span style='color:#6d9678;font-weight:700'>完了</span>"],
+        ["メール文面を確認し、事務局（全員CC）で平間氏へ送信", "青木氏", "7/17", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["交付申請に必要な書類・プロセス・スケジュールを平間氏とオンライン打合せ（日程調整）", "青木氏", "来週調整・7月中実施", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["作業リストをWBS化し、プラット全体会議で共有・発表", "井上（鈴木と共同）", "7/22(水)", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["全項目のプラット名義 自社見積を作成（他社比較不要）", "鈴木", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["パンフレット制作の業務範囲を川島印刷と打合せ／HP改修ミーティング設定", "鈴木", "来週中", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["Web/バックオフィス/川島印刷分の業務範囲を切分け、人件費・協会還元が残る金額設計", "宮嶌（鈴木連携）", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["ビッドペーパー・タリフをPDFで内製", "青木氏・五十嵐氏", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["案内看板（展示パネル・補助対象）の見積取得・制作着手", "鈴木", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["電気関係学会（8/27-28）の交付申請手続きを県・市へ", "五十嵐氏", "随時進行", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["山形コンベンションフェア（8/26）出展をビューローと打合せ・関係者共有", "青木氏", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["次回定例の日程確定（7/20週の候補から宮嶌の予定を踏まえ決定）", "鈴木", "早めに", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"]
+      ]
+    },
+    {
+      "type": "table", "tab": "tasks", "title": "WBS（作業リスト・全20タスク）", "icon": "🗂",
+      "heading": "PJTオーナー＝鈴木 美由紀。作業リスト（2026/7/16版）No.1〜20をプログラム別に反映",
+      "head": ["No.", "PG", "作業項目（ToDo・見積先/予算）", "担当", "時期", "状態"],
+      "rows": [
+        ["1", "②", "<strong>ツアールート設計</strong><br><small>A伝統工芸／B先端製造／C融合の3ルート設計・工場工房と受入調整（置賜紬工房・精密機械等／FAM造成80万）</small>", "宮嶌・鈴木・地域DMO", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["2", "②", "<strong>通訳ガイド育成</strong><br><small>英・中・仏ガイド選定/育成・スクリプト翻訳発注（YIRA・翻訳会社）</small>", "石山（主）・鈴木", "8月〜", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["3", "②", "<strong>ヘッドセット等備品調達</strong><br><small>Retekess TT106等・30台購入で確定（受入備品でモニター人数と非連動）</small>", "鈴木（見積）・青木氏（問合せ）", "至急〜7月中", "<span style='color:#a06e4f;font-weight:700'>見積取得済</span>"],
+        ["4", "②", "<strong>展示パネル多言語化</strong><br><small>5施設分の印刷・貼替発注（川島印刷含め要見積／15万）</small>", "鈴木", "9月", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["5", "②", "<strong>FAM（モニター）ツアー実施</strong><br><small>11月頃・15名前後で確定・JTB等へ声かけ／動画撮影併催</small>", "宮嶌（調整）・プラット（日程）", "11月", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["6", "④", "<strong>コンベンションガイド制作</strong><br><small>日英中40P 企画/デザイン/翻訳発注（英・簡体・繁体／40万）</small>", "鈴木（仕様）・宮嶌", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["7", "④", "<strong>ビッドペーパーテンプレート整備</strong><br><small>日英版・市長ウェルカムレターひな型を行政と協議（PDF内製）</small>", "鈴木・青木氏・五十嵐氏", "7月着手", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["8", "④", "<strong>プロモーション動画制作</strong><br><small>4K・3〜5分・英語ナレ版／仕様書作成→発注（110万・CCS/瀧波候補）</small>", "鈴木", "10〜11月撮影", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["9", "④", "<strong>HP・MICEポータル改修</strong><br><small>モバイル対応 改修仕様書・見積、川島印刷とMTG（英・簡体・繁体・仏／50万）</small>", "宮嶌・鈴木", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["10", "⑤", "<strong>事業PM・定例会運営</strong><br><small>官公庁・事務局同席の定例会運営・QA表作成/共有</small>", "鈴木（設定）・全員", "週1→月1", "<span style='color:#a06e4f;font-weight:700'>運用中</span>"],
+        ["11", "⑤", "<strong>ワンストップ窓口整備</strong><br><small>問合せ→紹介→見積→手配フロー標準化・MICE専用タリフ策定（郡山方式）</small>", "五十嵐氏", "R9公開予定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["12", "⑤", "<strong>効果測定・報告書作成</strong><br><small>アンケート集計（消費額推計）を五十嵐へ共有・実施し報告書作成</small>", "佐藤氏→五十嵐氏", "年度末", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["13", "共通", "<strong>交付申請書類作成</strong><br><small>電気学会（8/27）分提出・来年度の開催意向調査/交付申請</small>", "五十嵐氏", "7月上旬・8月・9月末", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["14", "共通", "<strong>予算確定</strong><br><small>本事業の予算書をJTB平間氏と相談し確定</small>", "青木氏", "早急に", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["15", "共通", "<strong>見積一括取得体制の整備</strong><br><small>全項目をプラット名義で一括取得（再委託扱いにしない）</small>", "鈴木", "随時", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["16", "共通", "<strong>OneDriveアクセス権限整備</strong><br><small>プラットのメール発行・リコー社でID/PW設定（7/13作業）</small>", "宮嶌・鈴木", "7/13", "<span style='color:#6d9678;font-weight:700'>完了</span>"],
+        ["17", "共通", "<strong>名刺のデジタル化</strong><br><small>五十嵐・佐藤の名刺（共有財産）をデジタル化（Sansan／Eight）</small>", "五十嵐氏", "順次", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["18", "共通", "<strong>自己負担分の資金繰り対応</strong><br><small>会長・専務とともに市へ相談（協会の予算逼迫が背景）</small>", "青木氏", "未定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
+        ["19", "共通", "<strong>交付申請要件の確認</strong><br><small>補助対象経費区分（4/5補助・自己負担1/5）を事務局に確認</small>", "青木氏", "至急", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["20", "共通", "<strong>通訳ガイド研修参加者選定</strong><br><small>県主催研修（7/11プロポーザル後）の参加者を選定</small>", "宮嶌", "7/11以降", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"]
+      ]
+    },
+    {
+      "type": "text", "tab": "deps", "title": "依存関係・遅延リスク", "icon": "🔗",
+      "heading": "クリティカルチェーンと遅延時の影響",
+      "html": "<strong>交付申請（7月中完了）</strong>：全実働の前提。<span style='color:#b85565'>書類・予算書がJTB平間氏との確認で確定しないと着手できず、後続の見積・発注・制作がすべて後ろ倒し</span>。<br><strong>予算・自己負担の資金繰り</strong>：補助率4/5＝自己負担1/5が必須（ゼロ不可）。<span style='color:#b85565'>協会全体の予算逼迫が背景にあり、自己負担分の原資（余剰金等）と市への相談が要点</span>。<br><strong>見積・発注の再委託回避</strong>：全項目をプラット名義で一括取得・発注し、パートナー（川島印刷・CCS等）へは業務委託として処理＝<span style='color:#b85565'>再委託扱いになると補助要件に抵触</span>。<br><strong>プロモ動画・FAMツアー</strong>：10-11月撮影に間に合わせるには夏の間に仕様確定・業者選定が必要。<br><strong>後任人材</strong>：<span style='color:#b85565'>ビューロー後任予定者の退職で再募集が必要</span>。業務安定まで週次定例を継続。"
+    },
+    {
+      "type": "timeline", "tab": "mtg", "title": "MTG履歴", "icon": "📝",
+      "heading": "最新 → 過去。議事録・資料の正本は Google Drive（下記リンク）",
+      "items": [
+        { "time": "2026/07/16(木) 第2回", "date": "2026-07-16", "milestone": "第2回 週次定例", "desc": "ヘッドセット30台で確定（受入整備の備品・モニター人数と非連動）／見積は自社作成（他社比較不要）／ビッドペーパー・タリフはPDF内製・川島印刷に依頼せず／案内看板は補助対象で制作／作業リストは井上がWBS化→7/22全体会議で共有／電気関係学会・アトラクション申請進行", "done": true },
+        { "time": "2026/07/09(木) 第1回", "date": "2026-07-09", "milestone": "第1回 週次定例", "desc": "交付申請を7月中に完了させることを最優先に確認／見積・発注はプラット一括（再委託にしない）／ヘッドセットはRetekess TT106（32台・約20万）ベース／FAMツアーは11月頃・15名前後で計画／自己負担の資金繰りが課題", "done": true },
+        { "time": "2026/06/30(火)", "date": "2026-06-30", "milestone": "引き継ぎ・交付フロー確認", "desc": "書類作成はプラット主体（協会と密に確認）／OneDrive権限付与／交付申請フロー（前年度9月末まで・開催45日前申請・宿泊者数ベース）／通訳ガイド研修は県主催に相乗り／プロモ動画は営業ツール志向へ", "done": true },
+        { "time": "2026/06/26(金)", "date": "2026-06-26", "milestone": "MICE計画すり合わせ", "desc": "採択後の交付段階を確認／プログラム区分の整理（パネル・多言語・備品=自己負担、企画・コンテンツ=補助対象、事務費10%以内）／ガイド育成事業（コンテンツ化促進事業）との連携設計／自己負担1/5の財源検討", "done": true },
+        { "time": "2026/06/22(月)", "date": "2026-06-22", "milestone": "引き継ぎ・予算確認", "desc": "年間業務スケジュール共有／予算総額（約485万円＝補助388万/協会負担98万）の内訳が要確認で問い合わせ中／官公庁窓口は青木氏へ／県・市の開催助成金フロー確認", "done": true },
+        { "time": "2026/06/17(水)", "date": "2026-06-17", "milestone": "ビューロー引き継ぎ初回", "desc": "佐藤氏(11年)の業務を組織として引き継ぐ初回。録音＋自動文字起こし方式／鈴木がMICE事務局中心（週2）・宮嶌が副会長兼担当役員／OneDrive/名刺デジタル化の方針", "done": true }
+      ]
+    },
+    {
+      "type": "links", "tab": "mtg", "title": "関連資料・原典", "icon": "🔗",
+      "items": [
+        { "icon": "📁", "title": "Drive：55_MICE誘致促進事業", "desc": "案件フォルダ（議事録・作業リスト・様式・成果物の正本）", "url": "https://drive.google.com/drive/folders/1j2FpAqBmXyZrFWAUWkNyZuDUjnGZYmMs" },
+        { "icon": "📋", "title": "MICE推進事業_作業リスト", "desc": "実施プログラム別 作業リスト（No.1〜20・2026/7/16版）", "url": "https://drive.google.com/file/d/1Ee4oI_5MQjNC_NeSp1vrj9yO0V_0AcVL/view" },
+        { "icon": "📝", "title": "2026-07-16 第2回 週次会議 議事録", "desc": "ヘッドセット30台確定・自社見積・PDF内製・WBS化の決定", "url": "https://drive.google.com/file/d/1ZdkqclYm3X-QPywW54lieNadkKmvH3vf/view" },
+        { "icon": "📝", "title": "2026-07-09 第1回 週次会議 議事録", "desc": "交付申請7月中完了・一括発注・FAMツアー計画", "url": "https://drive.google.com/file/d/1M_o1ho79yAKT2GVDIPtuPK7QwruUmMW4/view" },
+        { "icon": "📄", "title": "起案書および趣意書", "desc": "応募 起案・趣意書（背景・補助金の使途・財源）", "url": "https://drive.google.com/file/d/1gK_vJaD3Bc8LY4rCaUzNUNkgeGW3rDpN/view" }
+      ]
+    }
+  ]
+}

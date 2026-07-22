@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/st-miewmiew/mice_pj/project.schema.json",
+  "title": "Project Dashboard",
+  "description": "Data shape for one project page rendered by projects/project.html?id=<id>",
+  "type": "object",
+  "required": ["id", "title", "org", "hero", "live", "tabs", "sections"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "description": "Matches the JSON file name (without extension) and the ?id= query param" },
+    "domain": { "type": "string" },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "org": { "type": "string" },
+    "docsUrl": { "type": "string", "format": "uri" },
+    "hero": {
+      "type": "object",
+      "required": ["breadcrumb", "badges", "metaRow"],
+      "additionalProperties": false,
+      "properties": {
+        "breadcrumb": { "type": "string" },
+        "badges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "kind"],
+            "additionalProperties": false,
+            "properties": {
+              "label": { "type": "string" },
+              "kind": { "type": "string" }
+            }
+          }
+        },
+        "metaRow": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "live": {
+      "type": "object",
+      "required": ["phase", "nextMilestone", "nextDeadline", "progress"],
+      "additionalProperties": false,
+      "properties": {
+        "phase": { "type": "string" },
+        "nextMilestone": { "type": "string" },
+        "nextDeadline": { "type": "string", "format": "date" },
+        "progress": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "alert": { "type": "string", "description": "Inline HTML for the status banner" },
+    "tabs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "label"],
+        "additionalProperties": false,
+        "properties": {
+          "key": { "type": "string" },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/section" }
+    }
+  },
+  "definitions": {
+    "section": {
+      "type": "object",
+      "required": ["type", "tab"],
+      "properties": {
+        "type": { "enum": ["highlight", "stats", "table", "gantt", "timeline", "text", "links"] },
+        "tab": { "type": "string", "description": "Must match a tabs[].key" },
+        "title": { "type": "string" },
+        "icon": { "type": "string" },
+        "heading": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "highlight" } } },
+          "then": { "required": ["html"], "properties": { "html": { "type": "string" } } }
+        },
+        {
+          "if": { "properties": { "type": { "const": "text" } } },
+          "then": { "required": ["html"], "properties": { "html": { "type": "string" } } }
+        },
+        {
+          "if": { "properties": { "type": { "const": "stats" } } },
+          "then": {
+            "required": ["items"],
+            "properties": {
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["number", "unit", "label"],
+                  "properties": {
+                    "number": { "type": "string" },
+                    "numberStyle": { "type": "string" },
+                    "unit": { "type": "string" },
+                    "label": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "table" } } },
+          "then": {
+            "required": ["head", "rows"],
+            "properties": {
+              "head": { "type": "array", "items": { "type": "string" } },
+              "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "gantt" } } },
+          "then": {
+            "required": ["months", "rows"],
+            "properties": {
+              "months": { "type": "array", "items": { "type": "string" } },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["label", "start", "span", "status", "text"],
+                  "properties": {
+                    "label": { "type": "string" },
+                    "start": { "type": "integer", "minimum": 0 },
+                    "span": { "type": "integer", "minimum": 1 },
+                    "status": { "enum": ["active", "planned"] },
+                    "text": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "timeline" } } },
+          "then": {
+            "required": ["items"],
+            "properties": {
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["time", "date", "milestone", "desc", "done"],
+                  "properties": {
+                    "time": { "type": "string" },
+                    "date": { "type": "string", "format": "date" },
+                    "milestone": { "type": "string" },
+                    "desc": { "type": "string" },
+                    "done": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "links" } } },
+          "then": {
+            "required": ["items"],
+            "properties": {
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["icon", "title", "desc", "url"],
+                  "properties": {
+                    "icon": { "type": "string" },
+                    "title": { "type": "string" },
+                    "desc": { "type": "string" },
+                    "url": { "type": "string", "format": "uri" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

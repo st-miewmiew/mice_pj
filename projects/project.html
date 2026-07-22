@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プロジェクト読み込み中…</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="breadcrumb" id="breadcrumb"></span>
+    <span class="org-tag" id="org-tag"></span>
+  </div>
+</div>
+
+<div id="state-message" class="state-message" style="display:none;"></div>
+
+<div id="app" class="wrap" style="display:none;">
+  <div class="hero">
+    <div class="badges" id="badges"></div>
+    <h1 class="title mincho" id="title"></h1>
+    <p class="subtitle" id="subtitle"></p>
+    <div class="meta-row" id="meta-row"></div>
+    <a class="docs-link" id="docs-link" target="_blank" rel="noopener">📁 資料フォルダを開く</a>
+  </div>
+
+  <div class="live-card" id="live-card"></div>
+  <div class="alert" id="alert"></div>
+
+  <div class="tabs" id="tabs"></div>
+  <div id="panels"></div>
+</div>
+
+<script src="../assets/app.js"></script>
+</body>
+</html>
