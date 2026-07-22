@@ -237,10 +237,74 @@ table small{color:var(--text-muted);font-size:12px;}
   max-width:1040px;margin:60px auto;padding:0 20px;text-align:center;color:var(--text-muted);font-size:14px;
 }
 
+/* print / PDF button (always visible) */
+.print-btn{
+  position:fixed;right:20px;bottom:20px;z-index:40;
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:inherit;font-size:13.5px;font-weight:700;
+  color:#fff;background:var(--accent);
+  border:1px solid var(--accent);border-radius:999px;
+  padding:11px 18px;cursor:pointer;
+  box-shadow:0 4px 14px rgba(32,40,42,.22);
+}
+.print-btn:hover{filter:brightness(1.08);}
+.print-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+.print-btn-icon{font-size:15px;line-height:1;}
+
+.print-only{display:none;}
+
+@media(max-width:600px){
+  .print-btn-label{display:none;}
+  .print-btn{padding:12px;right:16px;bottom:16px;}
+}
+
 ::-webkit-scrollbar{height:8px;width:8px;}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
 
 @media(max-width:600px){
   h1.title{font-size:21px;}
   .tabs{top:45px;}
+}
+
+/* ---- print / PDF ---- */
+@media print{
+  /* force light, printable palette regardless of theme */
+  :root, :root[data-theme="dark"], :root[data-theme="light"]{
+    --bg:#fff; --surface:#fff; --surface-2:#f2f4f1; --text:#1a2224; --text-muted:#4c5854;
+    --border:#c7cec5; --accent:#264a6b; --accent-soft:#e6ecf2; --accent-warm:#9a6f45; --accent-warm-soft:#f0e6d8;
+    --shadow:none;
+  }
+  *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+
+  body{background:#fff;font-size:11pt;line-height:1.6;}
+  .wrap{max-width:none;padding:0;}
+
+  /* hide interactive chrome */
+  .print-btn,
+  .tabs,
+  .topbar{ display:none !important; }
+
+  /* reveal every tab's content stacked */
+  .panel{ display:block !important; }
+  .panel-print-title{
+    display:block;font-size:15pt;font-weight:700;
+    margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent);
+    break-before:page;page-break-before:always;
+  }
+  .panel:first-of-type .panel-print-title{ break-before:auto;page-break-before:auto; }
+
+  .hero{padding:0 0 10px;}
+  h1.title{font-size:19pt;}
+  .docs-link{display:none;}
+  a{color:var(--text);text-decoration:none;}
+
+  /* keep blocks intact across page breaks */
+  section.block, .live-card, .alert, .highlight-card, .text-card,
+  .stat-tile, .link-card, .timeline-item, .gantt, tr{
+    break-inside:avoid;page-break-inside:avoid;
+  }
+  .table-scroll, .gantt-scroll{overflow:visible !important;}
+  table{min-width:0;}
+  .gantt-grid{min-width:0;}
+  .card, .live-card, .alert{box-shadow:none !important;}
 }

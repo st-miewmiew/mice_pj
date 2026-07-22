@@ -145,7 +145,8 @@ function renderTabsAndPanels(data){
 
   panelsEl.innerHTML = data.tabs.map((t, i) => {
     const secs = data.sections.filter(s => s.tab === t.key).map(renderSection).join("");
-    return `<div class="panel${i===0 ? " active" : ""}" data-key="${t.key}">${secs}</div>`;
+    return `<div class="panel${i===0 ? " active" : ""}" data-key="${t.key}">
+      <h2 class="panel-print-title print-only">${t.label}</h2>${secs}</div>`;
   }).join("");
 
   tabsEl.querySelectorAll(".tab-btn").forEach(btn => {
