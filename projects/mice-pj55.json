@@ -20,12 +20,12 @@
     ]
   },
   "live": {
-    "phase": "採択済→交付申請を7月中に完了させることを最優先。作業リストをWBS化し全体会議で共有中",
-    "nextMilestone": "7/22 プラット全体会議でWBS共有 → 7月中 交付申請完了",
+    "phase": "採択済→交付申請を7月中に完了させることを最優先。7/21にPM整理MTGを実施し本ダッシュボード（Claude＋GitHub）で進行管理を開始。各成果物のたたき台が出揃いつつある",
+    "nextMilestone": "7/22 ダッシュボード・GitHub接続セットアップ／WBS反映 → 7月中 交付申請完了",
     "nextDeadline": "2026-07-22",
-    "progress": 0.35
+    "progress": 0.4
   },
-  "alert": "<strong>✅ 7/16 第2回定例 実施。</strong>ヘッドセットは<strong>当初申請どおり30台</strong>購入（受入整備の備品でモニターツアー人数とは非連動）／見積は<strong>他社比較不要・プラットが自社作成</strong>／ビッドペーパー・タリフは<strong>PDF内製</strong>・案内看板は補助対象で制作。作業リストは<strong>井上がWBS化→7/22(水)プラット全体会議で共有</strong>。直近＝<strong>交付申請の書類・予算書をJTB平間氏と確認（7月中実施のオンライン打合せ調整中）</strong>。",
+  "alert": "<strong>✅ 7/16 第2回定例 実施。</strong>ヘッドセットは<strong>当初申請どおり30台</strong>購入（受入整備の備品でモニターツアー人数とは非連動）／見積は<strong>他社比較不要・プラットが自社作成</strong>／ビッドペーパー・タリフは<strong>PDF内製</strong>・案内看板は補助対象で制作。<br><strong>✅ 7/21 PM整理MTG（井上・鈴木）実施。</strong>本案件を<strong>Claude＋GitHub連携の統合ダッシュボードで運用開始</strong>・GitHubアカウント登録／権限付与完了。<strong>7/22(水)11:00 オフィス対面でClaude⇄GitHub接続・情報取込をセットアップ</strong>し、井上作成のWBSを反映予定。直近＝<strong>交付申請の書類・予算書をJTB平間氏と確認（7月中実施のオンライン打合せ調整中）</strong>。",
   "tabs": [
     { "key": "overview", "label": "📌 概要" },
     { "key": "milestones", "label": "🎯 マイルストーン" },
@@ -53,7 +53,7 @@
       "head": ["#", "プログラム", "主な内容", "概算予算", "状態"],
       "rows": [
         ["②", "<strong>サステイナブルものづくり体験ツアー造成・多言語対応整備</strong><br><small>A伝統工芸／B先端製造／C融合の3ルート・通訳ガイド育成・ヘッドセット・展示パネル多言語化・FAMツアー</small>", "体験ツアー造成＋多言語", "115万円", "設計着手"],
-        ["④", "<strong>プロモーション素材・情報発信</strong><br><small>コンベンションガイド(日英中40P)・ビッドペーパー・プロモ動画(4K)・HP/MICEポータル改修</small>", "広報・営業ツール整備", "190万円", "仕様書作成"],
+        ["④", "<strong>プロモーション素材・情報発信</strong><br><small>コンベンションガイド(日英中40P)・ビッドペーパー・プロモ動画(4K)・HP/MICEポータル改修</small>", "広報・営業ツール整備", "190万円", "企画・たたき台作成"],
         ["⑤", "<strong>受け入れ態勢整備</strong><br><small>事業PM・定例会運営・ワンストップ窓口(MICE専用タリフ)・効果測定/報告書</small>", "受入体制・PM", "運営費内", "運用中"],
         ["共通", "<strong>引き継ぎ・事務局運営</strong><br><small>交付申請書類・予算確定・見積一括取得体制・OneDrive権限・名刺デジタル化・資金繰り</small>", "事務局基盤", "事務費(全体10%以内)", "進行中"]
       ]
@@ -101,7 +101,8 @@
         { "time": "2026/07/09(木)", "date": "2026-07-09", "milestone": "第1回 週次定例", "desc": "見積・発注はプラット一括（再委託にしない）／ヘッドセットはRetekess TT106ベース／FAMツアー11月・15名前後で計画", "done": true },
         { "time": "2026/07/13(月)", "date": "2026-07-13", "milestone": "OneDrive権限整備", "desc": "リコー社にてプラットのアカウント発行・OneDriveアクセス権限を設定（14:00〜作業）", "done": true },
         { "time": "2026/07/16(木)", "date": "2026-07-16", "milestone": "第2回 週次定例", "desc": "ヘッドセットは申請どおり30台購入で確定／見積は自社作成／ビッドペーパー・タリフはPDF内製／案内看板は補助対象／作業リストは井上がWBS化し7/22全体会議で共有", "done": true },
-        { "time": "2026/07/中", "date": "2026-07-22", "milestone": "WBS共有・全体会議", "desc": "★ 作業リストをWBS化し、プラット全体会議（7/22 水）で共有・発表", "done": false },
+        { "time": "2026/07/21(火)", "date": "2026-07-21", "milestone": "PM整理MTG・ダッシュボード運用開始", "desc": "井上・鈴木でオンライン実施。本案件をClaude＋GitHub連携の統合ダッシュボードで運用する方針を確認／鈴木のGitHubアカウント登録・ダッシュボード権限付与を完了／接続セットアップは7/22(水)オフィス対面で実施", "done": true },
+        { "time": "2026/07/22(水)", "date": "2026-07-22", "milestone": "WBS反映・接続セットアップ", "desc": "★ 11:00オフィス対面でClaude⇄GitHub接続・情報取込をセットアップし、井上がWBS化した作業リストをダッシュボードへ反映・共有", "done": false },
         { "time": "2026/07/中", "date": "2026-07-31", "milestone": "交付申請 完了", "desc": "★ 交付申請を7月中に完了（書類・予算書をJTB平間氏と確定→提出）。最優先事項", "done": false },
         { "time": "2026/08/26(水)", "date": "2026-08-26", "milestone": "山形コンベンションフェア", "desc": "山形コンベンションビューローと調整のうえ出展。エクスカーション獲得の機会", "done": false },
         { "time": "2026/08/27〜28", "date": "2026-08-27", "milestone": "電気関係学会（山大・約350名）", "desc": "開催支援・交付申請対応・看板設置・愛の武将隊アトラクション申請", "done": false },
@@ -139,10 +140,10 @@
         ["3", "②", "<strong>ヘッドセット等備品調達</strong><br><small>Retekess TT106等・30台購入で確定（受入備品でモニター人数と非連動）</small>", "鈴木（見積）・青木氏（問合せ）", "至急〜7月中", "<span style='color:#a06e4f;font-weight:700'>見積取得済</span>"],
         ["4", "②", "<strong>展示パネル多言語化</strong><br><small>5施設分の印刷・貼替発注（川島印刷含め要見積／15万）</small>", "鈴木", "9月", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
         ["5", "②", "<strong>FAM（モニター）ツアー実施</strong><br><small>11月頃・15名前後で確定・JTB等へ声かけ／動画撮影併催</small>", "宮嶌（調整）・プラット（日程）", "11月", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
-        ["6", "④", "<strong>コンベンションガイド制作</strong><br><small>日英中40P 企画/デザイン/翻訳発注（英・簡体・繁体／40万）</small>", "鈴木（仕様）・宮嶌", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["6", "④", "<strong>コンベンションガイド制作</strong><br><small>日英中40P 企画/デザイン/翻訳発注（英・簡体・繁体／40万）。たたき台・印刷部数提案(¥40万) 作成済（99_鈴木作成データ）</small>", "鈴木（仕様）・宮嶌", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
         ["7", "④", "<strong>ビッドペーパーテンプレート整備</strong><br><small>日英版・市長ウェルカムレターひな型を行政と協議（PDF内製）</small>", "鈴木・青木氏・五十嵐氏", "7月着手", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
-        ["8", "④", "<strong>プロモーション動画制作</strong><br><small>4K・3〜5分・英語ナレ版／仕様書作成→発注（110万・CCS/瀧波候補）</small>", "鈴木", "10〜11月撮影", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
-        ["9", "④", "<strong>HP・MICEポータル改修</strong><br><small>モバイル対応 改修仕様書・見積、川島印刷とMTG（英・簡体・繁体・仏／50万）</small>", "宮嶌・鈴木", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["8", "④", "<strong>プロモーション動画制作</strong><br><small>4K・3〜5分・英語ナレ版／企画構成案・絵コンテ・ナレーション台本 作成済（99_鈴木作成データ）→発注（110万・CCS/瀧波候補）</small>", "鈴木", "10〜11月撮影", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
+        ["9", "④", "<strong>HP・MICEポータル改修</strong><br><small>モバイル対応 改修仕様書・見積、川島印刷とMTG（英・簡体・繁体・仏／50万）。米沢CBサイト調査・改善提案・多言語化ツール比較（山形/郡山比較）作成済（99_鈴木作成データ）</small>", "宮嶌・鈴木", "7月着手", "<span style='color:#a06e4f;font-weight:700'>対応中</span>"],
         ["10", "⑤", "<strong>事業PM・定例会運営</strong><br><small>官公庁・事務局同席の定例会運営・QA表作成/共有</small>", "鈴木（設定）・全員", "週1→月1", "<span style='color:#a06e4f;font-weight:700'>運用中</span>"],
         ["11", "⑤", "<strong>ワンストップ窓口整備</strong><br><small>問合せ→紹介→見積→手配フロー標準化・MICE専用タリフ策定（郡山方式）</small>", "五十嵐氏", "R9公開予定", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
         ["12", "⑤", "<strong>効果測定・報告書作成</strong><br><small>アンケート集計（消費額推計）を五十嵐へ共有・実施し報告書作成</small>", "佐藤氏→五十嵐氏", "年度末", "<span style='color:#b85565;font-weight:700'>未着手</span>"],
@@ -165,6 +166,7 @@
       "type": "timeline", "tab": "mtg", "title": "MTG履歴", "icon": "📝",
       "heading": "最新 → 過去。議事録・資料の正本は Google Drive（下記リンク）",
       "items": [
+        { "time": "2026/07/21(火) PM整理", "date": "2026-07-21", "milestone": "MICE PM整理MTG（ダッシュボード導入）", "desc": "井上・鈴木でオンライン実施（約25分）。本案件をClaude＋GitHub連携の統合ダッシュボードで運用する方針を確認／鈴木のGitHubアカウント登録（会社Googleメール）・ダッシュボード権限付与を完了／Claude⇄GitHub接続などの細部は7/22(水)11:00オフィス対面でセットアップ／全社MTGで進捗を即共有できる運用を確認", "done": true },
         { "time": "2026/07/16(木) 第2回", "date": "2026-07-16", "milestone": "第2回 週次定例", "desc": "ヘッドセット30台で確定（受入整備の備品・モニター人数と非連動）／見積は自社作成（他社比較不要）／ビッドペーパー・タリフはPDF内製・川島印刷に依頼せず／案内看板は補助対象で制作／作業リストは井上がWBS化→7/22全体会議で共有／電気関係学会・アトラクション申請進行", "done": true },
         { "time": "2026/07/09(木) 第1回", "date": "2026-07-09", "milestone": "第1回 週次定例", "desc": "交付申請を7月中に完了させることを最優先に確認／見積・発注はプラット一括（再委託にしない）／ヘッドセットはRetekess TT106（32台・約20万）ベース／FAMツアーは11月頃・15名前後で計画／自己負担の資金繰りが課題", "done": true },
         { "time": "2026/06/30(火)", "date": "2026-06-30", "milestone": "引き継ぎ・交付フロー確認", "desc": "書類作成はプラット主体（協会と密に確認）／OneDrive権限付与／交付申請フロー（前年度9月末まで・開催45日前申請・宿泊者数ベース）／通訳ガイド研修は県主催に相乗り／プロモ動画は営業ツール志向へ", "done": true },
@@ -180,7 +182,14 @@
         { "icon": "📋", "title": "MICE推進事業_作業リスト", "desc": "実施プログラム別 作業リスト（No.1〜20・2026/7/16版）", "url": "https://drive.google.com/file/d/1Ee4oI_5MQjNC_NeSp1vrj9yO0V_0AcVL/view" },
         { "icon": "📝", "title": "2026-07-16 第2回 週次会議 議事録", "desc": "ヘッドセット30台確定・自社見積・PDF内製・WBS化の決定", "url": "https://drive.google.com/file/d/1ZdkqclYm3X-QPywW54lieNadkKmvH3vf/view" },
         { "icon": "📝", "title": "2026-07-09 第1回 週次会議 議事録", "desc": "交付申請7月中完了・一括発注・FAMツアー計画", "url": "https://drive.google.com/file/d/1M_o1ho79yAKT2GVDIPtuPK7QwruUmMW4/view" },
-        { "icon": "📄", "title": "起案書および趣意書", "desc": "応募 起案・趣意書（背景・補助金の使途・財源）", "url": "https://drive.google.com/file/d/1gK_vJaD3Bc8LY4rCaUzNUNkgeGW3rDpN/view" }
+        { "icon": "📄", "title": "起案書および趣意書", "desc": "応募 起案・趣意書（背景・補助金の使途・財源）", "url": "https://drive.google.com/file/d/1gK_vJaD3Bc8LY4rCaUzNUNkgeGW3rDpN/view" },
+        { "icon": "📝", "title": "2026-07-21 PM整理MTG 議事録", "desc": "ダッシュボード（Claude＋GitHub）導入・WBS運用・GitHub登録の決定（99_鈴木作成データ）", "url": "https://drive.google.com/file/d/1Cn6nWwHy4x-mu8e2Ukxhb6zKJCLllOrZ/view" },
+        { "icon": "🎬", "title": "成果物：PR動画 企画構成案", "desc": "米沢MICE誘致PR動画の企画・構成案（産業観光×伝統×おもてなし／99_鈴木作成データ＞PR動画）", "url": "https://drive.google.com/file/d/1gjCC0o--FmJb4a8-0LKLrHZ-v6LQa5_V/view" },
+        { "icon": "🎬", "title": "成果物：PR動画 絵コンテ・ナレーション台本", "desc": "全49カットの絵コンテとナレーション台本（フル尺約4分35秒／99_鈴木作成データ＞PR動画）", "url": "https://drive.google.com/file/d/1ANSSWI7f2vb3Mubx2Oex-tV_cruIDW3j/view" },
+        { "icon": "📕", "title": "成果物：MICEガイドブック たたき台", "desc": "日英中40P コンベンションガイドのたたき台（99_鈴木作成データ＞ガイドパンフレット）", "url": "https://drive.google.com/file/d/114SGfbZ-QwBmXhroRmp1YuGQCzkFXIWY/view" },
+        { "icon": "💴", "title": "成果物：資料印刷 部数・予算提案（¥40万）", "desc": "ガイド/タリフ/ビッドペーパー3点セットの部数・仕様・費用配分（99_鈴木作成データ＞ガイドパンフレット）", "url": "https://drive.google.com/file/d/1cQcgFXKvWK2PEaxTJxB1NeSwvcxKNdOv/view" },
+        { "icon": "🎧", "title": "成果物：ワイヤレスガイドシステム 比較・見積依頼", "desc": "受信30台＋送信2台構成の機種比較・レンタル比較・見積依頼シート（99_鈴木作成データ＞ツアーガイドシステム資料）", "url": "https://drive.google.com/drive/folders/1QunAWlkD0EiZQoCtZgeGEP5IEYHNfPZZ" },
+        { "icon": "🌐", "title": "成果物：Web調査・改善提案／多言語化比較", "desc": "米沢CBサイト調査・改善提案、山形/郡山サイトマップ比較、多言語化ツール比較（99_鈴木作成データ＞webサイト）", "url": "https://drive.google.com/drive/folders/1xlARK6e0SVYRjwx-9ycFPb0q9j0xGdC8" }
       ]
     }
   ]
